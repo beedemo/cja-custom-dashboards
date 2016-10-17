@@ -1,0 +1,19 @@
+[
+  {
+    "_id": "Audit-Trail",
+    "_type": "dashboard",
+    "_source": {
+      "title": "Audit Trail",
+      "hits": 0,
+      "description": "",
+      "panelsJSON": "[{\"id\":\"Audit-Trail-Masters\",\"type\":\"visualization\",\"size_x\":3,\"size_y\":3,\"col\":10,\"row\":1},{\"id\":\"Audit-Trail-Summary\",\"type\":\"visualization\",\"size_x\":9,\"size_y\":3,\"col\":1,\"row\":1},{\"id\":\"Audit-Trail-Search\",\"type\":\"search\",\"size_x\":12,\"size_y\":4,\"col\":1,\"row\":4,\"columns\":[\"master\",\"message\"],\"sort\":[\"@timestamp\",\"desc\"]}]",
+      "version": 1,
+      "timeRestore": true,
+      "timeTo": "now",
+      "timeFrom": "now-24h",
+      "kibanaSavedObjectMeta": {
+        "searchSourceJSON": "{\"filter\":[{\"query\":{\"query_string\":{\"query\":\"*\",\"analyze_wildcard\":true}}}]}"
+      }
+    }
+  }
+]
